@@ -32,7 +32,6 @@ select {
 p,
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -44,18 +43,31 @@ h6 {
 }
 
 .carter {
-    border: 2px solid rgb(40, 1, 1);
-    margin: 20vh auto;
-    width: 300px;
+  border: 2px solid rgb(40, 1, 1);
+  margin: 20vh auto;
+  width: 175px;
 }
 
 .display {
-    height: 70px;
-    background-color: lightgray;
-    margin: 5px;
-    border: solid 2px black;
-    text-align: right;
-    font-size: 2em;
-    line-height: 1.7;
-    padding: 5px;
+  height: 70px;
+  background-color: lightgray;
+  margin: 5px;
+  border: solid 2px black;
+  text-align: right;
+  font-size: 2em;
+  line-height: 1.7;
+  padding: 5px;
+}
+
+.buttonHolder {
+  display: flex;
+}
+
+.upperRow {
+  display: flex;
+}
+
+.upperRow button {
+  flex: 1;
+    margin: 5px 4px;
 }
